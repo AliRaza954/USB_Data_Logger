@@ -1,0 +1,58 @@
+[PROJECT]
+Target=DataLogger.hex
+Processor_Text=PIC18F452
+CCSVersion=5.076
+Compiler=PCH
+[Target Data]
+FileList=DataLogger.c
+[DataLogger.c]
+Type=4
+[mru-list]
+1=DataLogger.c
+
+[Opened Files]
+1=DataLogger.c
+2=
+t1=173
+Count=1
+
+[ProjectLog]
+Days=4
+D1=25-09-2017
+D1_L=1
+D1_L1=[71084]Project Closed.
+D2=12-07-2018
+D2_L=2
+D2_L1=[75624]Project Opened.
+D2_L2=[75673]Project Closed.
+D3=28-07-2018
+D3_L=7
+D3_L1=[38520]Project Opened.
+D3_L2=[39099]Started Editing.
+D3_L3=[39527]Stopped Editing.
+TotalEdit=10
+TotalDebug=0
+D3_E=8
+D3_D=0
+D3_L4=[39527]Project Closed.
+D3_L5=[41399]Project Opened.
+D3_L6=[41775]Project Closed.
+D3_L7=[41784]Project Opened.
+D4=08-09-2018
+D4_L=5
+D4_L1=[77754]Project Opened.
+D4_L2=[77976]Project Opened.
+D4_L3=[78539]Started Editing.
+D4_L4=[78607]Stopped Editing.
+D4_E=2
+D4_D=0
+D4_L5=[78607]Project Closed.
+
+[fileformats]
+forcecoff=0
+
+[defines]
+buildcount=8
+[Units]
+Count=1
+1=DataLogger (main)

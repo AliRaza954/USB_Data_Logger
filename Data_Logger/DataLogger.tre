@@ -1,0 +1,304 @@
+ÀÄDataLogger
+   ÃÄMAIN  0/1854  Ram=17
+   ³  ÃÄ@cinit1  (Inline)  Ram=0
+   ³  ÃÄlcd_init  0/90  Ram=2
+   ³  ³  ÃÄ@delay_ms1  0/40  Ram=1
+   ³  ³  ÃÄlcd_send_nibble  0/28  Ram=1
+   ³  ³  ÃÄ@delay_ms1  0/40  Ram=1
+   ³  ³  ÃÄlcd_send_nibble  0/28  Ram=1
+   ³  ³  ÃÄ@delay_ms1  0/40  Ram=1
+   ³  ³  ÃÄ@const678  0/20  Ram=0
+   ³  ³  ÀÄlcd_send_byte  0/54  Ram=3
+   ³  ³     ÃÄlcd_read_byte  0/62  Ram=3
+   ³  ³     ÃÄlcd_send_nibble  0/28  Ram=1
+   ³  ³     ÀÄlcd_send_nibble  0/28  Ram=1
+   ³  ÃÄrtc_init  0/60  Ram=2
+   ³  ³  ÃÄwrite_ds1302  0/22  Ram=2
+   ³  ³  ³  ÃÄwrite_ds1302_byte  0/36  Ram=2
+   ³  ³  ³  ÀÄwrite_ds1302_byte  0/36  Ram=2
+   ³  ³  ÃÄwrite_ds1302  0/22  Ram=2
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄread_ds1302  0/70  Ram=3
+   ³  ³  ³  ÀÄwrite_ds1302_byte  0/36  Ram=2
+   ³  ³  ÀÄwrite_ds1302  0/22  Ram=2
+   ³  ³     ÀÄ*
+   ³  ÃÄkbd_init  0/6  Ram=0
+   ³  ÃÄ@PSTRINGC_694  0/32  Ram=2
+   ³  ³  ÀÄlcd_putc  0/66  Ram=1
+   ³  ³     ÃÄlcd_send_byte  0/54  Ram=3
+   ³  ³     ³  ÀÄ*
+   ³  ³     ÃÄ@delay_ms1  0/40  Ram=1
+   ³  ³     ÃÄlcd_gotoxy  0/36  Ram=4
+   ³  ³     ³  ÀÄlcd_send_byte  0/54  Ram=3
+   ³  ³     ³     ÀÄ*
+   ³  ³     ÃÄlcd_send_byte  0/54  Ram=3
+   ³  ³     ³  ÀÄ*
+   ³  ³     ÀÄlcd_send_byte  0/54  Ram=3
+   ³  ³        ÀÄ*
+   ³  ÃÄ@PSTRINGC_694  0/32  Ram=2
+   ³  ³  ÀÄ*
+   ³  ÃÄ@delay_ms1  0/40  Ram=1
+   ³  ÃÄ@PUTCHARI_BIU_1  0/8  Ram=0
+   ³  ÃÄ@PUTCHARI_BIU_1  0/8  Ram=0
+   ³  ÃÄ@delay_ms1  0/40  Ram=1
+   ³  ÃÄ@PSTRINGC_694  0/32  Ram=2
+   ³  ³  ÀÄ*
+   ³  ÃÄ@PSTRINGC_694  0/32  Ram=2
+   ³  ³  ÀÄ*
+   ³  ÃÄ@delay_ms1  0/40  Ram=1
+   ³  ÃÄ@PUTCHARI_BIU_1  0/8  Ram=0
+   ³  ÃÄ@PUTCHARI_BIU_1  0/8  Ram=0
+   ³  ÃÄ@delay_ms1  0/40  Ram=1
+   ³  ÃÄ@PSTRINGC_694  0/32  Ram=2
+   ³  ³  ÀÄ*
+   ³  ÃÄ@PSTRINGC_694  0/32  Ram=2
+   ³  ³  ÀÄ*
+   ³  ÃÄ@delay_ms1  0/40  Ram=1
+   ³  ÃÄ@PSTRINGC_694  0/32  Ram=2
+   ³  ³  ÀÄ*
+   ³  ÃÄ@PSTRINGC_694  0/32  Ram=2
+   ³  ³  ÀÄ*
+   ³  ÃÄ@delay_ms1  0/40  Ram=1
+   ³  ÃÄ@PUTCHARI_BIU_1  0/8  Ram=0
+   ³  ÃÄ@delay_ms1  0/40  Ram=1
+   ³  ÃÄ@PSTRINGC_694  0/32  Ram=2
+   ³  ³  ÀÄ*
+   ³  ÃÄ@PSTRINGC_694  0/32  Ram=2
+   ³  ³  ÀÄ*
+   ³  ÃÄ@PSTRINGC_694  0/32  Ram=2
+   ³  ³  ÀÄ*
+   ³  ÃÄ@PSTRINGC_694  0/32  Ram=2
+   ³  ³  ÀÄ*
+   ³  ÃÄ@delay_ms1  0/40  Ram=1
+   ³  ÃÄ@PSTRINGC_694  0/32  Ram=2
+   ³  ³  ÀÄ*
+   ³  ÃÄkbd_getc  0/212  Ram=4
+   ³  ³  ÃÄ@goto40249  0/34  Ram=0
+   ³  ³  ÃÄALL_ROWS  0/56  Ram=1
+   ³  ³  ÃÄALL_ROWS  0/56  Ram=1
+   ³  ³  ÀÄ@const647  0/32  Ram=0
+   ³  ÃÄset_clock  0/156  Ram=6
+   ³  ³  ÃÄ@PSTRINGC_694  0/32  Ram=2
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄget_number  0/80  Ram=3
+   ³  ³  ³  ÃÄkbd_getc  0/212  Ram=4
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄlcd_putc  0/66  Ram=1
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄ@delay_ms1  0/40  Ram=1
+   ³  ³  ³  ÃÄkbd_getc  0/212  Ram=4
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄlcd_putc  0/66  Ram=1
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÀÄ@delay_ms1  0/40  Ram=1
+   ³  ³  ÃÄ@delay_ms1  0/40  Ram=1
+   ³  ³  ÃÄ@PSTRINGC_694  0/32  Ram=2
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄget_number  0/80  Ram=3
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@delay_ms1  0/40  Ram=1
+   ³  ³  ÃÄ@PSTRINGC_694  0/32  Ram=2
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄget_number  0/80  Ram=3
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@delay_ms1  0/40  Ram=1
+   ³  ³  ÃÄ@PSTRINGC_694  0/32  Ram=2
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄget_number  0/80  Ram=3
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@delay_ms1  0/40  Ram=1
+   ³  ³  ÃÄ@PSTRINGC_694  0/32  Ram=2
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄget_number  0/80  Ram=3
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@delay_ms1  0/40  Ram=1
+   ³  ³  ÃÄ@PSTRINGC_694  0/32  Ram=2
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄget_number  0/80  Ram=3
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÀÄrtc_set_datetime  0/142  Ram=7
+   ³  ³     ÃÄget_bcd  0/40  Ram=4
+   ³  ³     ³  ÀÄ@DIV88  0/40  Ram=3
+   ³  ³     ÃÄwrite_ds1302  0/22  Ram=2
+   ³  ³     ³  ÀÄ*
+   ³  ³     ÃÄget_bcd  0/40  Ram=4
+   ³  ³     ³  ÀÄ*
+   ³  ³     ÃÄwrite_ds1302  0/22  Ram=2
+   ³  ³     ³  ÀÄ*
+   ³  ³     ÃÄget_bcd  0/40  Ram=4
+   ³  ³     ³  ÀÄ*
+   ³  ³     ÃÄwrite_ds1302  0/22  Ram=2
+   ³  ³     ³  ÀÄ*
+   ³  ³     ÃÄget_bcd  0/40  Ram=4
+   ³  ³     ³  ÀÄ*
+   ³  ³     ÃÄwrite_ds1302  0/22  Ram=2
+   ³  ³     ³  ÀÄ*
+   ³  ³     ÃÄget_bcd  0/40  Ram=4
+   ³  ³     ³  ÀÄ*
+   ³  ³     ÃÄwrite_ds1302  0/22  Ram=2
+   ³  ³     ³  ÀÄ*
+   ³  ³     ÃÄget_bcd  0/40  Ram=4
+   ³  ³     ³  ÀÄ*
+   ³  ³     ÃÄwrite_ds1302  0/22  Ram=2
+   ³  ³     ³  ÀÄ*
+   ³  ³     ÃÄget_bcd  0/40  Ram=4
+   ³  ³     ³  ÀÄ*
+   ³  ³     ÀÄwrite_ds1302  0/22  Ram=2
+   ³  ³        ÀÄ*
+   ³  ÃÄset_clock1  0/130  Ram=0
+   ³  ³  ÃÄ@PSTRINGC_694  0/32  Ram=2
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄget_number  0/80  Ram=3
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@delay_ms1  0/40  Ram=1
+   ³  ³  ÃÄ@PSTRINGC_694  0/32  Ram=2
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄget_number  0/80  Ram=3
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@delay_ms1  0/40  Ram=1
+   ³  ³  ÃÄ@PSTRINGC_694  0/32  Ram=2
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄget_number  0/80  Ram=3
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@delay_ms1  0/40  Ram=1
+   ³  ³  ÃÄ@PSTRINGC_694  0/32  Ram=2
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄget_number  0/80  Ram=3
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@delay_ms1  0/40  Ram=1
+   ³  ³  ÃÄ@PSTRINGC_694  0/32  Ram=2
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄget_number  0/80  Ram=3
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@PSTRINGC_694  0/32  Ram=2
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄget_number  0/80  Ram=3
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÀÄ@delay_ms1  0/40  Ram=1
+   ³  ÃÄlcd_putc  0/66  Ram=1
+   ³  ³  ÀÄ*
+   ³  ÃÄrtc_get_date  (Inline)  Ram=5
+   ³  ³  ÃÄread_ds1302  0/70  Ram=3
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄrm_bcd  0/46  Ram=3
+   ³  ³  ÃÄread_ds1302  0/70  Ram=3
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄrm_bcd  0/46  Ram=3
+   ³  ³  ÃÄread_ds1302  0/70  Ram=3
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄrm_bcd  0/46  Ram=3
+   ³  ³  ÃÄread_ds1302  0/70  Ram=3
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÀÄrm_bcd  0/46  Ram=3
+   ³  ÃÄrtc_get_time  (Inline)  Ram=4
+   ³  ³  ÃÄread_ds1302  0/70  Ram=3
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄrm_bcd  0/46  Ram=3
+   ³  ³  ÃÄread_ds1302  0/70  Ram=3
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄrm_bcd  0/46  Ram=3
+   ³  ³  ÃÄread_ds1302  0/70  Ram=3
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÀÄrm_bcd  0/46  Ram=3
+   ³  ÃÄ@PRINTF_U_694  0/102  Ram=2
+   ³  ³  ÃÄ@DIV88  0/40  Ram=3
+   ³  ³  ÃÄlcd_putc  0/66  Ram=1
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@DIV88  0/40  Ram=3
+   ³  ³  ÃÄlcd_putc  0/66  Ram=1
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÀÄlcd_putc  0/66  Ram=1
+   ³  ³     ÀÄ*
+   ³  ÃÄlcd_putc  0/66  Ram=1
+   ³  ³  ÀÄ*
+   ³  ÃÄ@PRINTF_U_694  0/102  Ram=2
+   ³  ³  ÀÄ*
+   ³  ÃÄlcd_putc  0/66  Ram=1
+   ³  ³  ÀÄ*
+   ³  ÃÄ@PRINTF_U_694  0/102  Ram=2
+   ³  ³  ÀÄ*
+   ³  ÃÄlcd_putc  0/66  Ram=1
+   ³  ³  ÀÄ*
+   ³  ÃÄ@PRINTF_U_694  0/102  Ram=2
+   ³  ³  ÀÄ*
+   ³  ÃÄlcd_putc  0/66  Ram=1
+   ³  ³  ÀÄ*
+   ³  ÃÄ@PRINTF_U_694  0/102  Ram=2
+   ³  ³  ÀÄ*
+   ³  ÃÄlcd_putc  0/66  Ram=1
+   ³  ³  ÀÄ*
+   ³  ÃÄ@PRINTF_U_694  0/102  Ram=2
+   ³  ³  ÀÄ*
+   ³  ÃÄ@delay_ms1  0/40  Ram=1
+   ³  ÃÄlcd_putc  0/66  Ram=1
+   ³  ³  ÀÄ*
+   ³  ÃÄrtc_get_date  (Inline)  Ram=5
+   ³  ³  ÀÄ*
+   ³  ÃÄrtc_get_time  (Inline)  Ram=4
+   ³  ³  ÀÄ*
+   ³  ÃÄ@DIV88  0/40  Ram=3
+   ³  ÃÄ@DIV88  0/40  Ram=3
+   ³  ÃÄ@DIV88  0/40  Ram=3
+   ³  ÃÄ@DIV88  0/40  Ram=3
+   ³  ÃÄ@PRINTF_U_694  0/102  Ram=2
+   ³  ³  ÀÄ*
+   ³  ÃÄlcd_putc  0/66  Ram=1
+   ³  ³  ÀÄ*
+   ³  ÃÄ@PRINTF_U_694  0/102  Ram=2
+   ³  ³  ÀÄ*
+   ³  ÃÄlcd_putc  0/66  Ram=1
+   ³  ³  ÀÄ*
+   ³  ÃÄ@PRINTF_U_694  0/102  Ram=2
+   ³  ³  ÀÄ*
+   ³  ÃÄlcd_putc  0/66  Ram=1
+   ³  ³  ÀÄ*
+   ³  ÃÄ@PRINTF_U_694  0/102  Ram=2
+   ³  ³  ÀÄ*
+   ³  ÃÄlcd_putc  0/66  Ram=1
+   ³  ³  ÀÄ*
+   ³  ÃÄ@PRINTF_U_694  0/102  Ram=2
+   ³  ³  ÀÄ*
+   ³  ÃÄ@delay_ms1  0/40  Ram=1
+   ³  ÃÄ@delay_ms1  0/40  Ram=1
+   ³  ÃÄ@delay_ms1  0/40  Ram=1
+   ³  ÃÄ@delay_ms1  0/40  Ram=1
+   ³  ÃÄ@ITOF  0/54  Ram=2
+   ³  ÃÄ@MULFF  0/242  Ram=11
+   ³  ÃÄ@DIVFF  0/346  Ram=14
+   ³  ÃÄ@delay_ms1  0/40  Ram=1
+   ³  ÃÄ@delay_ms1  0/40  Ram=1
+   ³  ÃÄ@MUL1616  0/32  Ram=5
+   ³  ÃÄ@ITOF  0/54  Ram=2
+   ³  ÃÄ@DIVFF  0/346  Ram=14
+   ³  ÃÄ@delay_ms1  0/40  Ram=1
+   ³  ÃÄ@PSTRINGC_9600_31766_31767  0/34  Ram=2
+   ³  ÃÄ@PUTCHARI_BIU_1  0/8  Ram=0
+   ³  ÃÄ@PUTCHARI_BIU_1  0/8  Ram=0
+   ³  ÃÄ@PUTCHARI_BIU_1  0/8  Ram=0
+   ³  ÃÄ@PUTCHARI_BIU_1  0/8  Ram=0
+   ³  ÃÄ@PUTCHARI_BIU_1  0/8  Ram=0
+   ³  ÃÄ@PUTCHARI_BIU_1  0/8  Ram=0
+   ³  ÃÄ@PUTCHARI_BIU_1  0/8  Ram=0
+   ³  ÃÄ@PUTCHARI_BIU_1  0/8  Ram=0
+   ³  ÃÄ@PUTCHARI_BIU_1  0/8  Ram=0
+   ³  ÃÄ@PUTCHARI_BIU_1  0/8  Ram=0
+   ³  ÃÄ@PUTCHARI_BIU_1  0/8  Ram=0
+   ³  ÃÄ@PUTCHARI_BIU_1  0/8  Ram=0
+   ³  ÃÄ@PUTCHARI_BIU_1  0/8  Ram=0
+   ³  ÃÄ@PUTCHARI_BIU_1  0/8  Ram=0
+   ³  ÃÄ@PRINTF_L32D_9600_31766_31767FPFPF  0/384  Ram=13
+   ³  ³  ÃÄ@MULFF  0/242  Ram=11
+   ³  ³  ÃÄ@FTOSD  0/64  Ram=5
+   ³  ³  ÃÄ@DIV3232  0/142  Ram=13
+   ³  ³  ÀÄ@DIV3232  0/142  Ram=13
+   ³  ÃÄ@PRINTF_L32D_9600_31766_31767FPFPF  0/384  Ram=13
+   ³  ³  ÀÄ*
+   ³  ÃÄ@PUTCHARI_BIU_1  0/8  Ram=0
+   ³  ÃÄ@PSTRINGC_9600_31766_31767  0/34  Ram=2
+   ³  ÃÄ@PUTCHARI_BIU_1  0/8  Ram=0
+   ³  ÃÄlcd_putc  0/66  Ram=1
+   ³  ³  ÀÄ*
+   ³  ÃÄ@PSTRINGC_694  0/32  Ram=2
+   ³  ³  ÀÄ*
+   ³  ÀÄ@delay_ms1  0/40  Ram=1
+   ÀÄserial_isr  0/34  Ram=2

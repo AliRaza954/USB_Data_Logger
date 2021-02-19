@@ -1,0 +1,6 @@
+Compiling C:\Documents and Settings\robson\Desktop\Vinculum Datalogger Jeevan Keyboard Tested\DataLogger on 08-Sep-18 at 21:49
+>>> Warning 203 "DataLogger.c" Line 183(1,1): Condition always TRUE
+>>> Warning 203 "DataLogger.c" Line 193(1,1): Condition always TRUE
+      Memory usage:   ROM=16%      RAM=5% - 7%
+      0 Errors,  2 Warnings.
+Build Successful.
